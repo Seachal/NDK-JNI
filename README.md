@@ -10,3 +10,5 @@
 [Android NDK JNI 入门笔记-day04-NDK实现Hash算法](https://www.ihubin.com/blog/android-ndk-jni-basic-day04/)
 
 [Android NDK JNI 入门笔记-day05-NDK应用签名校验](https://www.ihubin.com/blog/android-ndk-jni-basic-day05/)
+
+这是一个系列教程，可以帮助快速学习ndk。
