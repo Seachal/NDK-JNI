@@ -6,7 +6,11 @@ import android.widget.TextView;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
-public class NativeToJavaActivity extends AppCompatActivity {
+
+/**
+ * Java 层调 native 层，然后得到返回中。
+ */
+public class JavaFromNativeActivity extends AppCompatActivity {
 
     private TextView booleanText;
     private TextView byteText;

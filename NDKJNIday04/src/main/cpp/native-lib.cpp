@@ -11,6 +11,7 @@ JNIEXPORT jstring JNICALL
 Java_com_ihubin_ndkjni_NativeUtil_md5(JNIEnv *env, jclass clazz, jstring plaintext) {
     const char * plaintextChar = env->GetStringUTFChars(plaintext, 0);
     std::string plaintextStr = std::string(plaintextChar);
+//    这个是调用 c++库的代码。
     MD5 md5;
     std::string md5String = md5(plaintextStr);
     char * tabStr = new char [md5String.length()+1];

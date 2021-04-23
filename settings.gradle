@@ -1,3 +1,4 @@
+include ':ndkjniday04seachal'
 include ':NDKJNIday05'
 include ':NDKJNIday04'
 include ':NDKJNIday03'

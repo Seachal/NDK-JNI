@@ -7,6 +7,7 @@ import android.widget.TextView;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
+//  Java  native 互相通信
 public class JavaNativeActivity extends AppCompatActivity {
 
     private TextView charConcatText;
@@ -33,6 +34,11 @@ public class JavaNativeActivity extends AppCompatActivity {
         charConcatText.setText("A+B+C=" + value);
     }
 
+    /**
+     *  java 层吧 x, y 的值传入到 native层，
+     *  然后 native 层会把， 会分为有返回值和无返回值。 JNIEXPORT jint 表示返回值类型是  intlei 类型
+     * @param view
+     */
     public void sumTest(View view) {
         int numOne = 123;
         int numTwo = 456;

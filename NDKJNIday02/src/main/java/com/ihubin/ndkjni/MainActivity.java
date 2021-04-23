@@ -1,10 +1,10 @@
 package com.ihubin.ndkjni;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
 
     // Native -> Java
     public void native2Java(View view) {
-        startActivity(new Intent(this, NativeToJavaActivity.class));
+        startActivity(new Intent(this, JavaFromNativeActivity.class));
     }
 
     // Java <-> Native
