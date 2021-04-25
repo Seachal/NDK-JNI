@@ -1,8 +1,7 @@
-include ':ndkjniday04seachal'
 include ':NDKJNIday05'
 include ':NDKJNIday04'
 include ':NDKJNIday03'
 include ':NDKJNIday02'
 include ':NDKJNIday01'
-include ':app'
+include ':ndkjniday04seachal'
 rootProject.name = "Seachal_NDK_JNI"
